@@ -21,7 +21,8 @@ def step():
 
     audio = base64.b64encode(rawbytes.getvalue()).decode()
     response = requests.post(mainworker_url, json={'codec': 'FLAC', 'audio': audio})
-    print(response)
+    print(response.content)
+
 
 if __name__ == '__main__':
     while True:

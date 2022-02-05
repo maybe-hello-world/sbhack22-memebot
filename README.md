@@ -1,5 +1,7 @@
 # UCSB Lectures Memebot
 This is a bot that listens to your Zoom lectures, recognize the topic, and send you top memes to your Discord channel :D
+
+
 ![img.png](img.png)
 
 ### Special for Santa Barbara Hack VIII!
